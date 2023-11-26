@@ -1,0 +1,53 @@
+.img-google{
+    width: 300px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh ;
+    
+}
+.inputdiv{
+    display: flex;
+    margin-top: 19px;
+    
+    width: 40%;
+    border: 1px solid rgba(157, 157, 157, 0.616);
+    border-radius: 30px;
+    height: 34px;
+    padding: 7px;
+    padding-left: 20px;
+    
+    
+}
+.inputdiv:hover{
+    border: 1px solid rgba(110, 110, 110, 0.979);
+    box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.507);
+}
+#inputbox{
+    width: 80%;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    
+}
+.btns{
+    
+    margin-top: 25px;
+    margin: 5px;
+    font-size: 14px;
+    width: 130px;
+    border-radius: 2px;
+    padding: 10px;
+    border: none;
+    background: rgba(233, 233, 233, 0.426);
+}
+.btnsdiv{
+    flex-direction: row;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+}
