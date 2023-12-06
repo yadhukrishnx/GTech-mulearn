@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Story Generator</title>
+    <style>
+        body {
+            height: 99vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .mainbody {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 80vh;
+            width: 100%;
+        }
+
+        .con {
+            height: 400px;
+            width: 700px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="button"] {
+            margin-top: 10px;
+            padding: 15px 30px;
+            background-color: rgba(127, 255, 212, 0.241);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto; /* Center the button */
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        #storyfield {
+            margin-top: 10px;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Silly Story Generator</h1>
+    <div class="mainbody">
+        <div class="con">
+            <script src="main.js"></script>
+            <form action="" id="myform">
+                <label for="name">Enter a Name:</label>
+                <input type="text" name="inp" id="name" value="Bob">
+                <br>
+                <div>
+                    <label for="us">US</label>
+                    <input type="radio" name="radioinp" id="us" value="us">
+                    <label for="uk">UK</label>
+                    <input type="radio" name="radioinp" id="uk" value="uk" checked>
+                </div>
+                <br>
+                <input type="button" value="Generate Story" onclick="generatestory()" >
+            </form>
+            <h3>Story:</h3>
+            <p id="storyfield"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
