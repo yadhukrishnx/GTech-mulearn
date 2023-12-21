@@ -19,6 +19,6 @@ function checkAndRedirect() {
     // Check if the entered text matches your name
     if (inputValue.toLowerCase() === yourName.toLowerCase()) {
       // Redirect to your portfolio (replace 'your-portfolio-url' with your actual portfolio URL)
-      window.location.href = 'https://yadhukrishna-n-p.firebaseapp.com/';
+      window.location.href = 'https://yadhukrishnanp.firebaseapp.com/';
     }
   }
