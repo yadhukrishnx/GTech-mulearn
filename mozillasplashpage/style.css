@@ -1,0 +1,68 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(images/pattern.png);
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);  
+    max-width: 1200px;  
+    position: relative;
+}
+header{
+    height: 160px;
+}
+header h1 {
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    font-size: 50px;
+    
+}
+header img {
+    width: 100px;
+    position: absolute;
+    right: 32.5px;
+    top: 32px;
+    
+}
+main{
+    background-color: #ccc;
+    
+}
+article{
+    padding: 20px;
+}
+h2{
+    margin-top: 0;
+}
+
+p{
+    line-height: 2;
+}
+iframe{
+    float: left;
+   margin: 0 22px 22px 0;
+    max-width: 100%;
+   
+}
+.further-info{
+    clear: left;
+    padding : 40px 0;
+    background: #c13832;
+}
+.further-info a{
+    width: 25%;
+    display: block;
+    float: left;
+}
+.further-info img{
+    max-width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.redpanda img{
+    display: block;
+    max-width: 100%;
+}
