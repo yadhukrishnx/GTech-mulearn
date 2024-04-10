@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://user-images.githubusercontent.com/39142850/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif");
+}
+.card-container{
+    background-color:linear-gradient(45deg,rgb(229, 255, 0),yellow,blue,rgb(0, 255, 0),rgb(149, 42, 248),orange,red,yellow,blue,rgb(0, 255, 0),rgb(149, 42, 248)) ;
+    width: 270px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.card{
+    height: 370px;
+    width: 250px;
+    background-color: rgba(18, 93, 255, 0.515);
+    border-radius: 10px;
+}
+.img-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 20px 0;
+}
+.details{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+h2:hover{
+    color: #ff0505;
+    
+}
