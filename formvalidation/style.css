@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,222,164);
+background: linear-gradient(217deg, rgba(0,222,164,1) 0%, rgba(57,190,255,1) 53%, rgba(255,79,79,0.7758753159466911) 100%);
+    font-family: Arial, sans-serif;
+}
+.image {
+    margin-bottom: -5px;
+    
+
+}
+
+.card {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 9px;
+    border:5px solid #18284833;
+}
+
+.card-header {
+    
+
+    margin-left: 30px;
+    background-color: #ffffff;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.nav-tabs .nav-item .nav-link {
+    
+background-color: transparent;
+  margin-top: -54px;
+    margin-right: 8px;
+margin-bottom: 30px;
+border: none;
+outline: none;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+display: none;
+background-color: transparent;
+    margin-top: 20px;
+    background-color: #4b6cb7;
+    color: white;
+    margin-right: 8px;
+    border: none;
+    outline: none;
+    
+    
+}
+
+.form-group input {
+    border-radius: 25px;
+    background-color: #f1f3f6;
+}
+.form-group input:focus{
+    border-radius: 25px;
+    background-color: #d1d1d195;
+    border: 2px solid rgba(33, 214, 255, 0.834);
+    font-weight: 555;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #4b6cb7;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #182848;
+}
+
+.tab-pane {
+    padding: 20px;
+}
