@@ -49,7 +49,7 @@ function signupvalidation(){
                     var email = document.getElementById("emaillogin").value;
                     var password = document.getElementById("passwordlogin").value;
                     if (email == "" || email == null){
-                        alert("Email cant be empty")
+                        alert("Email cannot be empty")
                         document.getElementById("emaillogin").focus();
                         return false;
                     }
