@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap'); 
+body{
+    margin: 0%;
+    padding: 0%;   
+    background: url(Assets/background.jpg) ; 
+    background-size:cover;
+}
+#preloader{
+    background: rgb(0, 0, 0) url(Assets/loader.gif)  no-repeat center center;
+    background-size: 70px;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    
+}
+.navbar .navbar-brand img{
+    rotate: 40deg;
+    transition: 1s;
+    
+}
+.navbar .navbar-brand img:hover{
+    rotate: 90deg;
+    transition: 1s;
+    
+}
+.navbar .navbar-brand{
+    font-size: 2rem;
+}
+.navbar .navbar-brand .first{
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.navbar .navbar-brand .second{
+    color: rgb(255, 132, 0);
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  
+}
+.registerbutton {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint if necessary */
+    .registerbutton {
+        margin-top: 0; /* Reset margin */
+    }
+}
+@media (max-width: 768px) {
+    .navbar-brand .first {
+        font-size: 1.5rem; /* Reduce font size on small devices */
+    }
+    .navbar-brand .second {
+        font-size: 1.3rem; /* Reduce font size on small devices */
+    }
+}
+.navbar button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid orange;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.navbar button:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid orange;
+    color: white;
+    background-color: rgba(255, 119, 0, 0.581);
+    
+}
+
+.newsletter{
+    
+   background-color: rgba(255, 128, 0, 0.303); 
+   color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   
+   
+   
+
+}
+.newsletter2{
+    
+   background-color: rgba(255, 255, 255, 0.816); 
+   color: rgb(0, 0, 0);
+   padding-top: 30px;
+
+   display: flex;
+   flex-direction: column;
+   
+   
+   
+
+}
+.newsletter img{
+    margin-top: 1rem;
+}
+.newsletter2 h1{
+    font-family: "Exo 2", sans-serif;
+    font-size: larger;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 20px;
+    text-decoration: underline;
+    
+}
+.newsletter2 p{
+    padding-left: 20px;
+    font-size: larger;
+}
+.newsletter2 ul{
+    padding-left: 4%;
+    font-size: medium;
+}
+.newsletter2 ol{
+    padding-left: 4%;
+    font-size: medium;
+}
