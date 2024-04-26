@@ -1,0 +1,29 @@
+@font-face {
+    font-family:Aileenation;
+    src: url(font/Aileenation.ttf);
+}
+body{
+     margin: 0;
+    color: #82a5ca;
+    text-align: center; 
+    font-family: 'Orbitron',sans-serif;
+    
+}
+.hero{
+    background: url(bg.gif);
+    background-size: cover;
+    padding: 30px 0 40px 0;
+    height: 80vh;
+}
+.applybtn{
+    padding: 6px 12px;
+    font-size: xx-large;
+    background: white;
+    border: none;
+    font-family: Aileenation;
+    font-weight: 800;
+   
+}
+.underline{
+    border-bottom: 5px solid white;
+}
