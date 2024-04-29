@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+}
+#header{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E3F6;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    height: 2vh;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 140px;
+    rotate: 6deg;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.03s ease;
+    
+}
+#navbar li a:hover,
+#navbar li a.active{
+  
+    color: #088178;
+
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:  #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+/* Home page */
+
+#hero{
+
+    background-image: url(images/bg.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top 25% right 0 bottom 0 lef;
+    padding: 0 0px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h1,h2,h4,p,button{
+    margin-left: 90px;
+}
+#hero h4{
+    padding-bottom: 15px;
+    font-size: large;
+}
+#hero h2{
+    margin-top: -22px;
+    font-size: 35px;
+}
+#hero h1{
+    
+    margin-top: -30px;
+    font-size: 50px;
+    color: #088178;
+    letter-spacing: 3px;
+}
+#hero p{
+    margin-top: -30px;
+    margin-left: 100px;
+    color: rgba(0, 0, 0, 0.536);
+}
+#hero button{
+    margin-top: 20px;
+    margin-left: 71px;
+    background-image: url("images/buttonbg.png");
+    background-color: transparent;
+    background-size: cover;
+    color: #088178;
+    border: 0;
+    padding: 20px 60px 14px 65px;
+}
