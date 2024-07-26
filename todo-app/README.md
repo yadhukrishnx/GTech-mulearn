@@ -23,3 +23,4 @@ ntl init
 
 ##### Deploy to a unique preview URL
 ntl deploy
+netlify deploy --prod
